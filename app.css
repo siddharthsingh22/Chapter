@@ -1,0 +1,229 @@
+.navbar-expand-lg {   
+    font-weight: 400;
+    opacity: 0.7;
+}
+#nav-color{
+    background: transparent!important;
+}
+.nav-item:hover{
+	color: #0EC7E7;
+}
+body{
+	background: white !important;
+}
+
+.display-5{
+	font-weight: 300;
+	text-align: center;
+	font-size: 3vw;
+}
+.footer{
+	display: flex;
+	opacity: 0.7;
+	margin: 2% 2% 2% 5%;
+	font-weight: 400;
+	font-size: 1.5vw;
+}
+
+.social-links{
+	width: 30%;
+}
+.tagline{
+	width: 30%;
+}
+.footer-line{
+	background: #0EC7E7;
+	height: 2px;
+    width: 100%;
+	margin-top: 4%;
+}
+.about-line{
+	background: #0EC7E7;
+	height: 2px;
+    width: 80%;
+    margin-top: 3%;
+    /*margin-left: 2%;*/
+    margin: auto;
+}
+.about-page .learn{
+	margin-bottom: 1%;
+	margin-left: 5%;
+	padding-bottom: 0.5%;
+}
+.about-page .collaborate{
+	margin-bottom: 1%;
+	margin-right: 5%;
+	padding-bottom: 0.5%;
+}
+.about-page .show{
+	margin-bottom: 1%;
+	margin-left: 5%;
+	padding-bottom: 0.5%;
+}
+.about-page .resume{
+	margin-bottom: 1%;
+	margin-right: 5%;
+	padding-bottom: 0.5%;
+}
+.about-page .period{
+	margin-left: 5%;
+	padding-bottom: 3.5%;
+}
+.about-page .learn .display-1{
+    margin: 0% 0% 0% 45%;
+    font-size: 6vw;
+    padding-top: 2%;
+}
+.about-page .learn .display-4{
+	margin-left: 10%;
+	width: 40%;
+	font-size: 3vw;
+}
+.about-page .collaborate .display-1{
+    margin: 0% 35% 0% 0%;
+    font-size: 6vw;
+}
+.about-page .collaborate .display-4{
+	margin-left: 55%;
+	width: 40%;
+	font-size: 3vw;
+}
+
+.about-page .show .display-1{
+	margin: 0% 0% 0% 45%;
+	font-size: 6vw;
+}
+.about-page .show .display-4{
+	margin-left: 10%;
+	width: 40%;
+	font-size: 3vw;
+}
+.about-page .resume .display-1{
+    margin: 0% 15% 0% 0%;
+    font-size: 6vw;
+}
+.about-page .resume .display-4{
+	margin-left: 55%;
+	width: 40%;
+	font-size: 3vw;
+	padding-top: 1%;
+}
+.about-page .period .display-1{
+    margin: 0% 0% 0% 45%;
+    font-size: 6vw;
+}
+.about-page .period .display-4{
+	margin-left: 10%;
+	width: 40%;
+	font-size: 3vw;
+}
+.border{
+	max-width: 50%;
+	padding: 1%;
+	font-weight: 300;
+	opacity: 0.7;
+}
+.subscription-page{
+	background: url("timer3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+.subscription-page .display-4{
+	margin: 0% auto 2% auto;
+	text-align: center;
+	font-size: 4vw;
+}
+.end-page{
+	background: black;
+	padding-top: 3.7%;
+	padding-bottom: 3%;
+	opacity: 0.9;
+}
+.end-page .display-5{
+	color: white;
+	font-size: 1.5vw;
+
+}
+#clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: flex; 
+    justify-content: center;
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+} 
+#clockdiv > div{ 
+    padding: 0.8vw; 
+    background: white; 
+    display: inline-block; 
+    margin-right: 0.8vw;
+    opacity: 0.6;
+} 
+#clockdiv div > span{ 
+    padding: 1vw; 
+    background: #608892; 
+    display: inline-block; 
+} 
+.smalltext{ 
+    padding-top: 0.3vw;
+    font-size: 2vw;
+    color: black;
+    opacity: 0.9;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid white;
+  border-radius: 50%;
+  border-top: 16px solid rgba(96, 136, 146, 0.9);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+#myVideo{
+	padding-top: 2%;
+
+}
+
